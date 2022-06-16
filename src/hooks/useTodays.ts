@@ -78,7 +78,7 @@ export function useTodays(dayString: string): [
 
 function getCountry(dayString: string) {
   const currentDayDate = DateTime.fromFormat(dayString, "yyyy-MM-dd");
-  let pickingDate = DateTime.fromFormat("2022-03-21", "yyyy-MM-dd");
+  let pickingDate = DateTime.fromFormat("2022-06-16", "yyyy-MM-dd");
   let smallCountryCooldown = 0;
   let pickedCountry: Country | null = null;
 

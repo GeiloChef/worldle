@@ -127,7 +127,30 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
-          Made by{" "}
+          Cloned by{" "}
+          <a
+            className="underline"
+            href="https://twitter.com/teuteuf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @GeiloChef
+          </a>{" "}
+          - (
+          <a
+            className="underline"
+            href="https://github.com/GeiloChef/worldle/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            source code
+          </a>
+          )
+        </div>
+      </div>
+      <div className="space-y-3 text-justify pb-3">
+        <div>
+          Originally made by{" "}
           <a
             className="underline"
             href="https://twitter.com/teuteuf"
@@ -146,20 +169,6 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             source code
           </a>
           )
-        </div>
-        <div>
-          Want to support?{" "}
-          <a
-            className="underline"
-            href="https://www.ko-fi.com/teuteuf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Twemoji
-              text="Buy me a coffee! ☕"
-              options={{ className: "inline-block" }}
-            />
-          </a>
         </div>
       </div>
     </Panel>

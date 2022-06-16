@@ -132,17 +132,27 @@ export default function App() {
             ) : (
               <a
                 className="underline pl-1"
-                href="https://www.ko-fi.com/teuteuf"
+                href="https://github.com/teuteuf/worldle/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="w-max">
-                  <Twemoji
-                    text={t("buyMeACoffee")}
-                    options={{ className: "inline-block" }}
-                  />
+                  <span>made by @teuteuf</span>
                 </div>
               </a>
+              //   <a
+              //   className="underline pl-1"
+              //   href="https://www.ko-fi.com/teuteuf"
+              //   target="_blank"
+              //   rel="noopener noreferrer"
+              // >
+              //   <div className="w-max">
+              //     <Twemoji
+              //       text={t("buyMeACoffee")}
+              //       options={{ className: "inline-block" }}
+              //     />
+              //   </div>
+              // </a>
             )}
           </footer>
         </div>
